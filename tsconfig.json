@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "allowJs": true,
+    "target": "ES6",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@data/*":["./data/*","./data/index.ts"],
+      "@domain/*":["./domain/*","./domain/index.ts"],
+      "@infra/*":["./infra/*","./infra/index.ts"],
+      "@services/*":["./services/*","./services/index.ts"],
+      "@controllers/*":["./controllers/*","./controllers/index.ts"],
+      "@routes/*":["./routes/*","./routes/index.ts"],
+    },  
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
